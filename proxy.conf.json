@@ -1,0 +1,10 @@
+{
+  "/businesses": {
+    "target": "https://api.yelp.com/v3",
+    "secure": true,
+    "pathRewrite": {
+      "^/businesses": ""
+    },
+    "changeOrigin": true
+  }
+}
